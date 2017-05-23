@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- The Stylesheet -->
+    <link rel="stylesheet" href="style.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <link href="assets/css/media-queries.css" rel="stylesheet" type="text/css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- The Material Icons -->
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <![endif]-->
+    <title>Weather forecast</title>
+</head>
+<body>
+<main>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center">Прогноз погоди</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="feedback.html">Зворотній зв'язок</a></li>
+                <li class="active"><a href="about.html">Про сайт</a></li>
+                <li><a href="daily.html">16 днів</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="feedback.html">Зворотній зв'язок</a></li>
+                <li class="active"><a href="about.html">Про сайт</a></li>
+                <li><a href="daily.html">16 днів</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--location-->
+    <div id="umbrelaAbout" >
+        <figure>
+            <img src="assets/img/umbrella.png" alt="umbrella">
+        </figure>
+    </div>
+    <div id="line"></div>
+    <div id="about" class="z-depth-4" class="col s12 m2"><h5>Цей сайт надає погоду для вашого місця розташування. Цей проект був створений на основі курсу SoftServe IT Academy</h5><h5> "HTML5 App Development Fundamentals"</h5></div>
+</main>
+<footer class="page-footer">
+    <div class="container"></div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015, Прогноз погоди
+        </div>
+    </div>
+</footer>
+<!--jquery-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="assets/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
